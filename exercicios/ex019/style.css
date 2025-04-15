@@ -1,0 +1,21 @@
+@charset "UTF-8"
+
+body {
+    color: blanchedalmond;
+}
+h1{
+    color: blue;
+}
+#principal{
+    color: brown;
+    text-align: center;
+}
+.basico{
+    color: chartreuse;
+}
+.intermediario{
+    color: blueviolet;
+}
+.avançado{
+    color: gray;
+}
