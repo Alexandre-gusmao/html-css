@@ -76,7 +76,7 @@ font-size: 1.5;}
 header p {
     color: white;
     font-family: var(--fontepadrao);
-    font-size: 0.5em; /* Verifique se esse tamanho é adequado */
+    font-size: 0.9em; /* Ajuste para melhorar a legibilidade */
     max-width: 600px;
     margin: auto;
     padding: 0 10px 20px; /* Combinação de padding */
