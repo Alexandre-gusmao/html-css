@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes favoritos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           
+            
+        }
+        table{
+            border-collapse: collapse;
+            width: 600px;
+            
+        }
+        
+        td,th{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabelas </h1>
+    <table>
+        <caption>filmes favoritos</caption>
+        <thead>
+            <th scope="col">Grupos </th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Alexandre</td>
+                <td>titanic</td>
+                <td>vingadores</td>
+                <td>chuc</td>
+            </tr>
+            <tr>
+                <td>Junior</td>
+                <td>lagoa azul</td>
+                <td>ursinho puff</td>
+                <td>Rei Leão</td>
+            </tr>
+            <tr>
+                <td>Luciano</td>
+                <td>hotwees</td>
+                <td>velozes e furiosos</td>
+                <td>Armadilha</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>angela</td>
+                <td>Rei leão</td>
+                <td>Dirty dnace</td>
+                <td>Lagoa azul</td>
+            </tr>
+            <tr>
+                <td>Elizangela</td>
+                <td>Hoje</td>
+                <td>Lost</td>
+                <td>Origem</td>
+            </tr>
+            <tr>
+                <td> Lívia</td>
+                <td>Betowven</td>
+                <td>Barbie</td>
+                <td>Rei leão</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+</body>
+</html>
