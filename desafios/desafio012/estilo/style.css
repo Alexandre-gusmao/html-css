@@ -17,9 +17,11 @@
     font-size: 1em;
 }
 html,body{
-    background-color: darkgray;
+    background-color: rgb(20, 20, 20);
+    
     min-height: 100vh;
     font-family: var(--font1);
+    
 }
 header{
     background-color: black;
@@ -46,12 +48,14 @@ a:hover{
     text-decoration: underline;
 }
 section{
+    max-width: 1000px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 3.5vw;
+    margin: auto;
 }
 section.normal{
     background-color: white;
@@ -61,12 +65,30 @@ section.normal{
 section.imagem{
     background-color: rgb(48, 44, 44);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.479);
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 0 black;
     
+}
+section#img001{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+section#img002{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+section >p{
+    padding-bottom: 2em;
 }
 footer{
     background-color: black;
