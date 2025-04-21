@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabelas </title>
+    <style>
+      table{
+        width: 400px;
+        border-collapse: collapse;
+      
+      }
+      td,th{
+        border: 2px solid black;
+        padding: 10px;
+      }
+      thead,tfoot{
+        background-color: #ccc;
+      }
+      caption{
+        background-color: bisque;
+      }
+      tbody > tr:nth-child(2n+1){
+        background-color: #6f18d1;
+
+      }
+
+       
+        
+  
+      
+    </style>
+</head>
+<body>
+    
+  <h1>Uso de tabelas grandes</h1>
+  <!-- anatomia para tabelas grandes
+   TABLE  
+       THEAD(CABEÇA)
+         TR, TD,TH
+       TBODY 
+         TR, TD,TH
+       TFOOT
+         TR,TD,TH    -->
+  <table>
+    <caption>População dos estaddos brasileiros</caption>
+    <thead>
+      <tr>
+      <th scope="col">Estado</th>
+      <th scope="col">População</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+      <tr>
+      <td>São Paulo</td>
+      <td>45 919 049</td>
+      </tr>
+      <tr>
+        <td>Minas gerais</td>
+        <td>21 168 791</td>
+      </tr>
+      <tr>
+        <td>Rio de janeiro</td>
+        <td>17 264 931</td>
+      </tr>
+      <tr>
+        <td>vitória</td>
+        <td>82 985 748</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <th scope="row">Total de habitantes</th>
+      <td>0000</td>
+    </tfoot>
+  </table>
+
+    
+</body>
+</html>
